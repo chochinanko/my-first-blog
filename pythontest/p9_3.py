@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 np.random.seed(19680801)
 
 
-X = 10*np.random.rand(5, 3)
+X = 10*np.random.rand(15, 15)
 
 fig, ax = plt.subplots()
 ax.imshow(X, interpolation='nearest')
